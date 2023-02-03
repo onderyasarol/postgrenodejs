@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichalZalecki/docker-compose-node-postgres.git"
+    "url": "git+https://github.com/onderyasarol/postgrenodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MichalZalecki/docker-compose-node-postgres/issues"
+    "url": "https://github.com/onderyasarol/postgrenodejs/issues"
   },
-  "homepage": "https://github.com/MichalZalecki/docker-compose-node-postgres#readme",
+  "homepage": "https://github.com/onderyasarol/postgrenodejs#readme",
   "dependencies": {
     "@types/express": "^4.16.1",
     "@types/node": "^11.13.4",

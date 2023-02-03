@@ -1,11 +1,5 @@
 # Docker Compose for Node.js and PostgreSQL
 
-For the sake of making it more real-world, setup has also a build step (here with **TypeScript**).
-
-## [Read more](https://michalzalecki.com/docker-compose-for-nodejs-and-postresql/)
-
-I've put together an article which explains most of the code from this repo: [Docker Compose for NodeJS and PostreSQL](https://michalzalecki.com/docker-compose-for-nodejs-and-postresql/)
-
 ## Run
 
     docker-compose up --build
@@ -16,7 +10,16 @@ I've put together an article which explains most of the code from this repo: [Do
 curl http://localhost:3000/ping
 # {"environment":"development","database":"up"}
 ```
+## Create a new repository on the command line
+echo "# nodejspostgre" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/onderyasarol/postgrenodejs.git
+git push -u origin main
 
-## WARNING
-
-Don't keep `.env` file in the repo. It's here as it makes demo example simpler.
+## Push an existing repository from the command line
+git remote add origin https://github.com/onderyasarol/postgrenodejs.git
+git branch -M main
+git push -u origin main

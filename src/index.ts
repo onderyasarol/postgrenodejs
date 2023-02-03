@@ -1,12 +1,13 @@
 import express from "express";
 import { Client } from "pg";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const client = new Client({
-  password: "postgres",
-  user: "postgres",
-  host: "postgres",
+  user: "admin",
+  password: "P@ssw0rd",
+  host: "srv-captain--postgrenodejs-db",
+  database: "postgredb"
 });
 
 const app = express();
